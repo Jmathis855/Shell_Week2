@@ -132,3 +132,57 @@ Practice Exercise
 - `|` - the Unix pipe can be used to send the output of one command into the input of another
     - `history | tail -n 20 >> endOfHistory.txt`
 
+
+Jake personal notes:
+~ tildy - home directory
+
+Ls = list, can put a further argument after
+Shell = default what actually interprets commands, most common is bash
+
+
+username@computer
+
+Randomly assigned to either computer 1 or 2
+
+
+[username@mike1] = command prompt
+
+Pwd = print working directory, shows your path Ex. /home/jmath84/
+
+Cd = change directory, put a space and then the extra piece (known as an argument). You could also do h, then tab it so it autocompletes
+
+Ctrl + c cancels what you just typed 
+
+
+NEVER use spaces in filenames
+
+You can use CamelCase
+
+Folders and directories are interchangeable
+
+.. takes you to the parent directory (basically just takes you up one. So if I was in /work/jembrown/pps, it would take me to just /work/jembrown) 
+. Is a shortcut for where I am currently 
+
+Cat = short for concatenate, used to look at contents of 1 file
+
+Nano is to edit the file
+
+^ is ctrl
+
+Flags are optional settings
+Arguments
+
+When you do ls -a, it shows all hidden files
+When you do -l, it is a long list (helps show permission)
+When you do -h flag, it makes it human readable . Ex. -lh for both long and human.
+Hidden file names start with a period
+
+doing man "command" will list all specific options for a command that can be used
+
+If you do something like ls -lh, there's a code to understanding the formatting
+rw-r--r-- 1 for instance
+    R = read, W = write. Last set of 3 is anyone on the computer. Second is for anyone in the users group.
+
+
+top command can be used to show resource usage in terminal
+"q" can quit
