@@ -77,7 +77,7 @@ Practice Exercise
     - `ls ../*.txt` go up one directory then tell me the txt files there (still within the same directory)
 - `head -n #` - view the first # of lines of a file
 - `tail -n #` - view the last # of lines of a file
-- `less` - view the contents of a file a little at a time nice way to scroll through
+- `less` - view the contents of a file a little at a time nice way to scroll through **would not want to do this in an automated command, pressing q exits**
 - `touch filename.txt` - quickly create a new file
 - `nano filename.txt` - this is actually an entire text editing program (type text like normal)
     - write out is save and ^=control (^O) exit (^X)
@@ -131,4 +131,4 @@ Practice Exercise
     - `echo $myVariable`
 - `|` - the Unix pipe can be used to send the output of one command into the input of another
     - `history | tail -n 20 >> endOfHistory.txt`
-
+        1 > overrwrites to a file if something is already in the file or creates the file/adds it if nothing is there, 2 >> will append to a file
